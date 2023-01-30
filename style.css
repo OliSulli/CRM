@@ -1,1 +1,65 @@
+/*formulaire d'interface d'utilisateur pour le CRM*/
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #ae00ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+  }
 
+  /*stylesheet pour le formulaire nom email et telephone ajouter des adresses? ou autre pour qu'il ressemble au formulaire sur excel */
+#crm-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ae00ff;
+}
+
+h1 {
+  text-align: center;
+  padding:12px 20px;
+  border: 2px solid #ae00ff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  
+
+#typed {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  color: #ae00ff;
+  font-size: 25px;
+  font-weight: normal;
+  
+}
+
+body {
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ae00ff;
+}
+
+:hover {
+  background-color: #ccc;
+}
