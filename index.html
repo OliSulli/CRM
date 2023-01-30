@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    <title>CRM</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+    </script>
+    <div id="typed-strings">
+      <h3><strong>Formation n°2200728</strong> periode de stage du 16/01 au 27/01</h3>
+    </div>
+    <h2><span id="typed"></span></h2>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement:'#typed-strings',
+            typeSpeed:100,
+            backSpeed:15,
+            loop:true,
+        })
+    </script>
+    <h1>CRM projet IFPA</h1>
+    </head>
+    <body>
+       <!-- interface d'utilisateur -->
+        <form id="login-form">
+            <label for="username"><strong>Nom d'utilisateur:</strong></label>
+            <input type="text" id="username" name="username">
+          
+            <label for="password"><strong>Mot de passe:</strong></label>
+            <input type="password" id="password" name="password">
+          
+            <input type="submit" value="Se connecter">
+          </form>
+          <!-- formulaire pour rentré les données d'un client prévoir de rajouter d'autres options tel que l'adresse ect... et de l'ajouter également au javascript-->
+          <div id="crm-form">
+          <form>
+            <label for="name">Nom et prénom :</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email (monemailxxx@gmail.com) :</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Téléphone :</label>
+            <input type="tel" id="phone" name="phone"><br>
+            <label for="adresse">Adresse (numéro et rue) :</label>
+            <input type="adresse" id="adresse" name="adresse"><br>
+            <label for="CP">Code postal :</label>
+            <input type="CP" id="cp" name="cp"><br>
+            <label for="departement">Département :</label>
+            <input type="departement" id="departement" name="departement"><br>
+            <label for="Nfacture">N° de facture :</label>
+            <input type="Nfacture" id="Nfacture" name="Nfacture"><br>
+            <label for="Mfacture"> Montant facture :</label>
+            <input type="Mfacture" id="Mfacture" name="Mfacture"><br>
+            <label for="DateEfacture"> Date d'émission facture :</label>
+            <input type="DateEfacture" id="DateEfacture" name="DateEfacture"><br>
+            <label for="date réception"> Date de réception :</label>
+            <input type="date réception" id="date réception" name="date réception"><br>
+            <label for="Mregler"> Montant Régler :</label>
+            <input type="Mregler" id="Mregler" name="Mregler"><br>
+            <input type="submit" value="Submit">
 
+          </form>
+          </div>
+          <?php /* balise php utilisé echo pour mettre du texte donc: echo "entre guillemets le texte"; fermer avec le point virgule*/ ?>
+        <script src="main.js"></script>
+    </body>
+</html>
